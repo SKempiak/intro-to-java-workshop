@@ -15,7 +15,7 @@ dog.setSpeed(10);
 		// 4. make a variable to hold the length of the triangle and set it to 50
 int length=50;
 		// 7. Do the following (up to step 10) 60 times
-for (int i = 0; i < 60; i++) {
+for (int i = 0; i < 999999999; i++) {
 	
 
 			// 9. Change the color of the pen to a random color
@@ -30,7 +30,7 @@ for (int i = 0; i < 60; i++) {
 
 	/* 2. fill in the method below to draw a triangle. Use the length variable for the size of the triangle. */
 	private void drawTriangle(int length) {
-		for (int i = 0; i <3; i++) {
+		for (int i = 0; i <999999999; i++) {
 		dog.penDown();
 		dog.move(length);
 		dog.turn(360/3);

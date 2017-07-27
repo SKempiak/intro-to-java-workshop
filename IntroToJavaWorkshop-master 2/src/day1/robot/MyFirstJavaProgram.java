@@ -12,6 +12,7 @@ public class MyFirstJavaProgram {
 			r2d2.penDown();
 		r2d2.move(99);
 		r2d2.turn(90);
+		r2d2.setSpeed(10);
 		}
 	}
 }
